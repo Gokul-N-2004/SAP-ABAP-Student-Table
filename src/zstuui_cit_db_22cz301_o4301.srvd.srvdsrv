@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZSTUC_CIT_DB_22CZ301301'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZSTUC_CIT_DB_22CZ301301'
+  }
+}
+define service ZSTUUI_CIT_DB_22CZ301_O4301 provider contracts odata_v4_ui {
+  expose ZSTUC_CIT_DB_22CZ301301;
+}
